@@ -1,0 +1,18 @@
+\documentclass{article}
+\title{Notes}
+\author{Allen Li}
+\begin{document}
+    \maketitle
+    \section{XeThru Radar Transmission}
+    \begin{flushleft}
+        $Sampling Rate:23.328GS/s$\\
+        $Able to sample up to 1536 samples$\\
+        $Range \approx 9.9m$\\
+        \begin{center}
+            $range=\frac{c\times \tau}{2} \quad where \quad c=3\times 10^8 \quad and \quad \tau=\frac{sample_num}{sampling_rate}=\frac{1536}{23.328\times10^9}$\\
+            $\Rightarrow range=\frac{1536\times3\times10^8}{23.328\times10^9\times2}\approx 9.87m$\\
+        \end{center}
+        Notice:\\
+        $frame \quad length \leq \frac{1}{PRF}(PRF:Pulse \quad Repetition \quad Frequecy)$\\ 
+    \end{flushleft}
+\end{document}
